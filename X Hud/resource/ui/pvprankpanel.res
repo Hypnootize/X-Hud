@@ -182,7 +182,6 @@
 		"tall"			"f40"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -191,7 +190,6 @@
 			"ypos"			"cs-0.5"
 			"tall"			"35"
 			"wide"			"505"
-			"border"		"MainMenuBGBorder"
 		}
 
 		"NameLabel"
@@ -199,15 +197,15 @@
 			"ControlName"	"Label"
 			"fieldName"		"NameLabel"
 			"xpos"			"65"
-			"ypos"			"5"
-			"wide"			"f0"
+			"ypos"			"15"
+			"wide"			"140"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"0"
 			"enabled"		"1"
-			"font"			"HudFontSmallishBold"
+			"font"			"Crescent18"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-west"
+			"textAlignment"	"center"
 			"labelText"		"%name%"
 			"proportionaltoparent"	"1"
 
@@ -217,29 +215,77 @@
 			}
 		}
 
-		"LevelLabel"
+		"DescLine1"
 		{
-			"ControlName"	"Label"
-			"fieldName"		"LevelLabel"
-			"xpos"			"63"
-			"ypos"			"20"
-			"wide"			"f0"
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine1"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"140"
 			"zpos"			"100"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
 			"font"			"Crescent18"
 			"fgcolor_override"	"TanLight"
-			"textAlignment"	"north-center"
-			"labelText"		"%level%"
+			"textAlignment"	"center"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
 				"xpos"	"67"
 				"ypos"	"4"
+				"wide"			"195"
 				"textAlignment"	"north-west"
 				"font"			"HudFontSmallestBold"
+			}
+
+			"fonts"
+			{
+				"0"		"Crescent18"
+				"1"		"Crescent18"
+				"2"		"Crescent18"
+			}
+		}
+
+		"DescLine2"
+		{
+			"ControlName"	"CAutoFittingLabel"
+			"fieldName"		"DescLine2"
+			"xpos"			"65"
+			"ypos"			"29"
+			"wide"			"140"
+			"zpos"			"100"
+			"tall"			"20"
+			"visible"		"1"
+			"enabled"		"1"
+			"font"			"Crescent18"
+			"fgcolor_override"	"TanLight"
+			"textAlignment"	"center"
+			"labelText"		"%desc2%"
+			"proportionaltoparent"	"1"
+
+			if_mini
+			{
+				"xpos"	"67"
+				"ypos"	"4"
+				"wide"			"195"
+				"textAlignment"	"north-west"
+				"font"			"HudFontSmallestBold"
+			}
+
+			"fonts"
+			{
+				"0"		"Crescent18"
+				"1"		"Crescent18"
+				"2"		"Crescent18"
+			}
+
+			"colors"
+			{
+				"1"		"CreditsGreen"
+				"2"		"TanLight"
 			}
 		}
 
@@ -247,9 +293,9 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"0"
+			"xpos"			"64"
 			"ypos"			"0"
-			"wide"			"f70"
+			"wide"			"140"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
