@@ -16,8 +16,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"TimePanelBG"
@@ -65,8 +64,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	
@@ -103,8 +101,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}
 	"OvertimeBG"
@@ -140,8 +137,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}				
 	"SuddenDeathBG"
@@ -177,8 +173,7 @@
 		
 		if_match
 		{
-			"visible"			"0"
-			"wide"				"0"
+			"xpos"			"9999"
 		}
 	}	
 	"SetupBG"
@@ -211,6 +206,12 @@
 		"wrap"			"0"
 		"font"			"Crescent20"
 		"fgcolor_override"	"xattuuWhite"
+		
+		if_match
+		{
+			"ypos"			"30"
+			"font"			"Crescent12"
+		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
