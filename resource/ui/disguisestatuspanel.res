@@ -1,15 +1,5 @@
 "Resource/UI/ItemModelPanel.res"
 {
-	DisguiseStatus
-	{
-		"fieldName" "DisguiseStatus"
-		"visible"	"1"
-		"enabled"	"1"
-		"xpos"		"10"	[$WIN32]
-		"ypos"		"r26"	[$WIN32]
-		"wide"		"200"
-		"tall"		"26"
-	}
 	
 	"itemmodelpanel"
 	{

@@ -1,16 +1,5 @@
 "Resource/UI/winpanel.res"
 {
-	WinPanel
-	{
-		"fieldName"				"WinPanel"
-		"visible"				"1"
-		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"r200"
-		"wide"					"300"
-		"tall"					"200"
-	}
-	
 	"TeamScoresPanel"
 	{
 		"ControlName"		"EditablePanel"

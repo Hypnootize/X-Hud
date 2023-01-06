@@ -1,16 +1,5 @@
 "Resource/UI/HudDemomanPipes.res"
 {
-	HudDemomanPipes
-	{
-		"fieldName"		"HudDemomanPipes"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-47"
-		"ypos"			"c70"
-		"wide"			"94"
-		"tall"			"170"
-	}	
-	
 	"background"
 	{
 		"ControlName"	"CTFImagePanel"

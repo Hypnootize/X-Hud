@@ -8,21 +8,7 @@
 			"zpos"		"5"
 		}
 	}
-	
-	HudKothTimeStatus
-	{
-		"fieldName" "HudKothTimeStatus"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c-55"
-		"ypos"	"0"
-		"wide"	"110"
-		"tall"	"36"
-		
-		"blue_active_xpos"			"0"
-	
-		"red_active_xpos"			"66"
-	}
+
 	"BlueTimer"
 	{
 		"ControlName"		"CTFHudTimeStatus"

@@ -1,16 +1,5 @@
 "Resource/UI/HudDemomanCharge.res"
 {	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c67"
-		"ypos"			"c82"
-		"wide"			"56"
-		"tall"			"20"
-	}	
-	
 	"ChargeMeter"
 	{	
 		"ControlName"	"ContinuousProgressBar"
